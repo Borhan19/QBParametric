@@ -1,0 +1,142 @@
+/usr/bin/nohup: ignoring input
+Option B: collector bandwidth scan
+QuTiP version = 5.0.4
+nbar = 5.000
+cutoffs: Na=5, Nb=5, Nc=14, NAf=5, NBf=5
+Hilbert dimension D = 8750; Liouville dimension D^2 ~ 7.656e+07
+lambda = 1.000000, g = 0.447214
+kappa_a = 2.500, kappa_b = 2.500, kappa_c = 0.020
+gamma_A = 1.000, gamma_B = 1.000
+rho = 0.800, G0 = 20.753
+tau_max = 2.000, Nt = 61
+
+
+Scanning gamma_f/lambda = 0.500  (gamma_f=0.5000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 5538.8 s
+    physicality check for coherent: min Imin=0.661734, max C=0.779628
+    final: eta_in=0.9966, V=0.6881, Imin=0.6635, C=0.7796, n_pair=0.5638, edge max source/collector=2.40e-03/1.22e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5921.1 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.1260, C=0.0000, n_pair=0.5630, edge max source/collector=1.90e-03/1.21e-02
+  tau_star=1.9333, Imin_coh(tau_star)=0.661734, Imin_deph(tau_star)=2.050191, eta_crit=0.5721, C_star=0.7759, n_pair coh/deph=0.5258/0.5251
+
+Scanning gamma_f/lambda = 0.750  (gamma_f=0.7500)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 4000.0 s
+    physicality check for coherent: min Imin=0.619253, max C=0.802933
+    final: eta_in=0.9966, V=0.7277, Imin=0.6535, C=0.8005, n_pair=0.7000, edge max source/collector=2.40e-03/2.14e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 4196.8 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.3983, C=0.0000, n_pair=0.6991, edge max source/collector=1.90e-03/2.13e-02
+  tau_star=1.7000, Imin_coh(tau_star)=0.619253, Imin_deph(tau_star)=2.017089, eta_crit=0.5294, C_star=0.7980, n_pair coh/deph=0.5092/0.5085
+
+Scanning gamma_f/lambda = 1.000  (gamma_f=1.0000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 8836.1 s
+    physicality check for coherent: min Imin=0.592079, max C=0.816021
+    final: eta_in=0.9966, V=0.7395, Imin=0.6654, C=0.8036, n_pair=0.7772, edge max source/collector=2.40e-03/2.67e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 4546.0 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.5527, C=0.0000, n_pair=0.7763, edge max source/collector=1.90e-03/2.66e-02
+  tau_star=1.6000, Imin_coh(tau_star)=0.592079, Imin_deph(tau_star)=2.032824, eta_crit=0.5139, C_star=0.8141, n_pair coh/deph=0.5171/0.5164
+
+Scanning gamma_f/lambda = 1.250  (gamma_f=1.2500)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 6759.3 s
+    physicality check for coherent: min Imin=0.57421, max C=0.82465
+    final: eta_in=0.9966, V=0.7426, Imin=0.6774, C=0.8028, n_pair=0.8156, edge max source/collector=2.40e-03/2.86e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 3695.5 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.6297, C=0.0000, n_pair=0.8148, edge max source/collector=1.90e-03/2.85e-02
+  tau_star=1.5000, Imin_coh(tau_star)=0.574210, Imin_deph(tau_star)=1.991003, eta_crit=0.4893, C_star=0.8230, n_pair coh/deph=0.4962/0.4955
+
+Scanning gamma_f/lambda = 1.500  (gamma_f=1.5000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 4059.1 s
+    physicality check for coherent: min Imin=0.563042, max C=0.830104
+    final: eta_in=0.9966, V=0.7421, Imin=0.6857, C=0.8009, n_pair=0.8292, edge max source/collector=2.40e-03/2.84e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5081.7 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.6571, C=0.0000, n_pair=0.8285, edge max source/collector=1.90e-03/2.83e-02
+  tau_star=1.4333, Imin_coh(tau_star)=0.563042, Imin_deph(tau_star)=1.961354, eta_crit=0.4727, C_star=0.8288, n_pair coh/deph=0.4813/0.4807
+
+Scanning gamma_f/lambda = 1.750  (gamma_f=1.7500)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 6321.9 s
+    physicality check for coherent: min Imin=0.556428, max C=0.83316
+    final: eta_in=0.9966, V=0.7396, Imin=0.6912, C=0.7984, n_pair=0.8273, edge max source/collector=2.40e-03/2.71e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5159.9 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.6533, C=0.0000, n_pair=0.8267, edge max source/collector=1.90e-03/2.70e-02
+  tau_star=1.4000, Imin_coh(tau_star)=0.556428, Imin_deph(tau_star)=1.956699, eta_crit=0.4668, C_star=0.8326, n_pair coh/deph=0.4790/0.4783
+
+Scanning gamma_f/lambda = 2.000  (gamma_f=2.0000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 6190.4 s
+    physicality check for coherent: min Imin=0.553312, max C=0.834473
+    final: eta_in=0.9966, V=0.7360, Imin=0.6948, C=0.7957, n_pair=0.8158, edge max source/collector=2.40e-03/2.52e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5878.2 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.6304, C=0.0000, n_pair=0.8152, edge max source/collector=1.90e-03/2.51e-02
+  tau_star=1.3667, Imin_coh(tau_star)=0.553312, Imin_deph(tau_star)=1.938389, eta_crit=0.4590, C_star=0.8341, n_pair coh/deph=0.4698/0.4692
+
+Scanning gamma_f/lambda = 2.250  (gamma_f=2.2500)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 4076.3 s
+    physicality check for coherent: min Imin=0.552736, max C=0.834355
+    final: eta_in=0.9966, V=0.7315, Imin=0.6972, C=0.7927, n_pair=0.7986, edge max source/collector=2.40e-03/2.32e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 3956.5 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.5960, C=0.0000, n_pair=0.7980, edge max source/collector=1.90e-03/2.31e-02
+  tau_star=1.3333, Imin_coh(tau_star)=0.552736, Imin_deph(tau_star)=1.911010, eta_crit=0.4499, C_star=0.8341, n_pair coh/deph=0.4561/0.4555
+
+Scanning gamma_f/lambda = 2.500  (gamma_f=2.5000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 5168.7 s
+    physicality check for coherent: min Imin=0.554117, max C=0.833138
+    final: eta_in=0.9966, V=0.7266, Imin=0.6987, C=0.7896, n_pair=0.7780, edge max source/collector=2.40e-03/2.12e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5240.7 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.5549, C=0.0000, n_pair=0.7774, edge max source/collector=1.90e-03/2.11e-02
+  tau_star=1.3000, Imin_coh(tau_star)=0.554117, Imin_deph(tau_star)=1.877712, eta_crit=0.4397, C_star=0.8328, n_pair coh/deph=0.4394/0.4389
+
+Scanning gamma_f/lambda = 3.000  (gamma_f=3.0000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 8226.6 s
+    physicality check for coherent: min Imin=0.560834, max C=0.82827
+    final: eta_in=0.9966, V=0.7163, Imin=0.6994, C=0.7837, n_pair=0.7327, edge max source/collector=2.40e-03/1.75e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 7572.7 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.4642, C=0.0000, n_pair=0.7321, edge max source/collector=1.90e-03/1.74e-02
+  tau_star=1.2667, Imin_coh(tau_star)=0.560834, Imin_deph(tau_star)=1.840642, eta_crit=0.4315, C_star=0.8282, n_pair coh/deph=0.4209/0.4203
+
+Scanning gamma_f/lambda = 4.000  (gamma_f=4.0000)
+  mesolve coherent: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished coherent in 9001.4 s
+    physicality check for coherent: min Imin=0.58285, max C=0.812796
+    final: eta_in=0.9966, V=0.6953, Imin=0.6964, C=0.7732, n_pair=0.6427, edge max source/collector=2.40e-03/1.17e-02
+  mesolve phase_randomized: Hilbert D=8750, Liouville size~7.656e+07, Nt=61
+  finished phase_randomized in 5106.6 s
+    physicality check for phase_randomized: min Imin=1, max C=0
+    final: eta_in=0.0000, V=0.0000, Imin=2.2843, C=0.0000, n_pair=0.6421, edge max source/collector=1.90e-03/1.17e-02
+  tau_star=1.2000, Imin_coh(tau_star)=0.582850, Imin_deph(tau_star)=1.743526, eta_crit=0.4104, C_star=0.8127, n_pair coh/deph=0.3723/0.3718
+
+Best bandwidth by coherent minimum Imin:
+  gamma_f=2.250000, tau_star=1.333333, Imin_star=0.552736, eta_crit=0.449855
+Saved collector bandwidth scan to:
+  /home/Borhan/Computation/qb_gamma_extended_Na5_NAf5/qb_paramp_optionB_collectors_gamma_scan.pdf
+Saved collector bandwidth time traces to:
+  /home/Borhan/Computation/qb_gamma_extended_Na5_NAf5/qb_paramp_optionB_collectors_gamma_traces.pdf
+Saved collector bandwidth edge diagnostics to:
+  /home/Borhan/Computation/qb_gamma_extended_Na5_NAf5/qb_paramp_optionB_collectors_gamma_edges.pdf

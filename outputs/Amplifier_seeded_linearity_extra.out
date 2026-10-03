@@ -1,0 +1,115 @@
+/usr/bin/nohup: ignoring input
+Seeded finite-pump amplifier: coherent gain and added-noise test
+QuTiP version = 5.0.4
+nbar = 5.000000
+cutoffs: Na=5, Nb=5, Nc=14, NAf=5, NBf=5
+Hilbert D = 8750; Liouville D^2 ~ 7.656e+07
+lambda = 1.000000, g = 0.447214, xi = 0.800000
+kappa_a/b/c = 2.500000/2.500000/0.020000
+gamma_A/B = 2.000000/2.000000
+tau_max = 2.000000, Nt = 61, tau_eval = 1.3666667
+main seed amplitude = 0.025000 sqrt(lambda), phase = 0.000000 rad
+
+Passive pump-off reference (g=0):
+  mesolve vacuum, beta=0.025+0j: D=200, Liouville~4.000e+04, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 0.3 s
+    edge max source/collector=9.71e-13/2.70e-09
+
+    WARNING vacuum: N_inc has negative values down to -5.977e-07; increase cutoffs or tighten solver tolerances.
+Passive coherent-state sanity check:
+  max |N_inc| = 5.977e-07
+  max |Vbar-1/2| = 5.977e-07
+
+Main seeded solve: coherent
+  mesolve coherent, beta=0.025+0j: D=8750, Liouville~7.656e+07, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 21769.8 s
+    edge max source/collector=2.40e-03/2.52e-02
+
+Main seeded solve: phase_randomized
+  mesolve phase_randomized, beta=0.025+0j: D=8750, Liouville~7.656e+07, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 6941.9 s
+    edge max source/collector=1.93e-03/2.52e-02
+
+Seeded amplifier summary at requested readout time
+state              eta_in     G_coh     N_add    N_QL     N_sig      N_inc      Vx/Vp        G_top_hat
+coherent             0.9966    2.3826  -0.0930   0.2901    0.00007    0.46978  0.96976/0.96980      0.0835
+  saved /home/Borhan/Computation/qb_seeded_linearity_0025/seeded_gain_noise_timeseries_coherent.csv
+partial              0.2500    2.3826  -0.0931   0.2901    0.00007    0.46948  0.96946/0.96950      0.0835
+  saved /home/Borhan/Computation/qb_seeded_linearity_0025/seeded_gain_noise_timeseries_partial.csv
+phase_randomized     0.0000    2.3825  -0.0932   0.2901    0.00007    0.46917  0.96915/0.96919      0.0835
+  saved /home/Borhan/Computation/qb_seeded_linearity_0025/seeded_gain_noise_timeseries_phase_randomized.csv
+Saved summary CSV: /home/Borhan/Computation/qb_seeded_linearity_0025/seeded_gain_noise_summary.csv
+
+Coherent-pump weak-seed linearity test
+    seed=0.025000: G_coh=2.382646, G_top_hat=0.083471, N_add=-0.092981, N_inc=0.469781
+Linearity diagnostics across seed amplitudes:
+  relative span of G_coh  = 0.000e+00
+  relative span of N_add  = 0.000e+00
+  relative span of N_inc  = 0.000e+00
+  (Small spans indicate operation in the weak-probe linear-response regime.)
+
+Saved linearity CSV: /home/Borhan/Computation/qb_seeded_linearity_0025/seeded_linearity.csv
+Saved figures:
+  /home/Borhan/Computation/qb_seeded_linearity_0025/qb_seeded_gain_noise_vs_time.pdf
+  /home/Borhan/Computation/qb_seeded_linearity_0025/qb_seeded_gain_noise_summary.pdf
+  /home/Borhan/Computation/qb_seeded_linearity_0025/qb_seeded_linearity.pdf
+Seeded finite-pump amplifier: coherent gain and added-noise test
+QuTiP version = 5.0.4
+nbar = 5.000000
+cutoffs: Na=5, Nb=5, Nc=14, NAf=5, NBf=5
+Hilbert D = 8750; Liouville D^2 ~ 7.656e+07
+lambda = 1.000000, g = 0.447214, xi = 0.800000
+kappa_a/b/c = 2.500000/2.500000/0.020000
+gamma_A/B = 2.000000/2.000000
+tau_max = 2.000000, Nt = 61, tau_eval = 1.3666667
+main seed amplitude = 0.100000 sqrt(lambda), phase = 0.000000 rad
+
+Passive pump-off reference (g=0):
+  mesolve vacuum, beta=0.1+0j: D=200, Liouville~4.000e+04, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 0.5 s
+    edge max source/collector=1.35e-09/9.55e-08
+
+    WARNING vacuum: N_inc has negative values down to -5.739e-07; increase cutoffs or tighten solver tolerances.
+Passive coherent-state sanity check:
+  max |N_inc| = 5.739e-07
+  max |Vbar-1/2| = 5.739e-07
+
+Main seeded solve: coherent
+  mesolve coherent, beta=0.1+0j: D=8750, Liouville~7.656e+07, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 8688.6 s
+    edge max source/collector=2.40e-03/2.56e-02
+
+Main seeded solve: phase_randomized
+  mesolve phase_randomized, beta=0.1+0j: D=8750, Liouville~7.656e+07, Nt=61
+    data layers: H=CSR, rho0=CSR, c_ops=['CSR', 'CSR', 'CSR']
+    finished in 4152.7 s
+    edge max source/collector=2.25e-03/2.55e-02
+
+Seeded amplifier summary at requested readout time
+state              eta_in     G_coh     N_add    N_QL     N_sig      N_inc      Vx/Vp        G_top_hat
+coherent             0.9966    2.3727  -0.0914   0.2893    0.00114    0.46941  0.96907/0.96974      0.0831
+  saved /home/Borhan/Computation/qb_seeded_linearity_0100/seeded_gain_noise_timeseries_coherent.csv
+partial              0.2500    2.3726  -0.0915   0.2893    0.00114    0.46910  0.96876/0.96944      0.0831
+  saved /home/Borhan/Computation/qb_seeded_linearity_0100/seeded_gain_noise_timeseries_partial.csv
+phase_randomized     0.0000    2.3725  -0.0917   0.2893    0.00114    0.46880  0.96846/0.96913      0.0831
+  saved /home/Borhan/Computation/qb_seeded_linearity_0100/seeded_gain_noise_timeseries_phase_randomized.csv
+Saved summary CSV: /home/Borhan/Computation/qb_seeded_linearity_0100/seeded_gain_noise_summary.csv
+
+Coherent-pump weak-seed linearity test
+    seed=0.100000: G_coh=2.372671, G_top_hat=0.083138, N_add=-0.091429, N_inc=0.469406
+Linearity diagnostics across seed amplitudes:
+  relative span of G_coh  = 0.000e+00
+  relative span of N_add  = 0.000e+00
+  relative span of N_inc  = 0.000e+00
+  (Small spans indicate operation in the weak-probe linear-response regime.)
+
+Saved linearity CSV: /home/Borhan/Computation/qb_seeded_linearity_0100/seeded_linearity.csv
+Saved figures:
+  /home/Borhan/Computation/qb_seeded_linearity_0100/qb_seeded_gain_noise_vs_time.pdf
+  /home/Borhan/Computation/qb_seeded_linearity_0100/qb_seeded_gain_noise_summary.pdf
+  /home/Borhan/Computation/qb_seeded_linearity_0100/qb_seeded_linearity.pdf
